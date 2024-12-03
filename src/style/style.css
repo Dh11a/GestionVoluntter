@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f5f7;
+}
+
+.sidebar {
+  background-color: #343a40;
+  height: 100vh;
+  padding-top: 20px;
+  position: fixed;
+  top: 0;
+}
+
+.sidebar .nav-item {
+  margin-bottom: 15px;
+}
+
+.sidebar .nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #495057;
+}
+
+.card {
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #495057;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+
+.list-group-item {
+  background-color: #fff;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+.badge {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
